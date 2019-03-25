@@ -1,5 +1,6 @@
 # Iterate through input array and execute yield block
 def hello_t(array)
+  # If block is passed, return array
   if block_given?
     i = 0
     while i < array.length
